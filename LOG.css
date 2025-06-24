@@ -1,0 +1,173 @@
+body{
+    background-size: cover;
+    margin: auto;
+    background-image: url(LOG2.jpg);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    } 
+    .background{
+        background-color: transparent;
+        width: 500px;
+        height: 500px;
+        border-radius: 15px;
+        padding: 15px;
+        backdrop-filter: blur(20px);
+        border: 2px solid white;
+    }
+    #login{
+        position: absolute;
+        top:50px ;
+        left: 115px;
+        height: 300px;
+        width: 300px;
+        background-color: transparent;
+        color: white;
+   
+    } 
+    h1{
+        text-align: center;
+        font-size: 40px;
+        color: rgb(6, 6, 6);
+        font-family: "Rubik Glitch", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+    } 
+    h1::after{
+        content: "";
+        position: absolute;
+        left: 83px;
+        top: 75px;
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width:136.32px ;
+        scale: 0;
+        transition: scale 0.8s ease-in-out;
+    } 
+    h1:hover::after{
+        scale: 1;
+    } 
+    #i{
+        left: 2px;
+        top: 32px;
+        position: relative;
+        font-size: 15px;
+    } 
+    .pass{
+        width: 100%;
+        height: 30px;
+        margin: 30px 0;
+     
+    } 
+    .pass input{
+        width: 98%;
+        height: 100%;
+        border-bottom: solid 2px white;
+        border-top:none ;
+        border-right: none;
+        border-left: none;
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 15px;
+        padding: 2px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        outline: none;
+    } 
+    .pass input::placeholder{
+      color: white;
+} 
+    .pass input:focus{
+        font-size: 16px;
+        
+    }
+     .pass input:invalid:not(:placeholder-shown) {
+        border-color: #ff0000;
+       
+      }
+        .pass input:valid {
+        border-color: #00ff2a;
+        
+      }
+      
+    .pass .forgot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin: -15px 0 15px;
+
+    } 
+    .forgot label input{
+        accent-color: white;
+        margin-right: 3px;  
+    } 
+    .forgot a{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        right: 0;
+    } 
+    .forgot a:hover{
+        text-decoration: underline;
+        color: rgb(255, 0, 0);
+    } 
+    .forgot{
+        margin-top: 40px;
+    } 
+    .submit input{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        box-shadow: 0 0 50px gray;
+        border-radius: 10px;
+    } 
+    .submit input:hover{
+        cursor: pointer;
+        
+        scale: .99 .95;
+    } 
+    .submit p a{
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    } 
+    .submit p a:hover{
+        color: white;
+        text-decoration: underline;
+    } 
+    .submit p{
+        text-align: center;
+    } 
+  
+      
+      
+   /* #i2{
+position: absolute;
+right: 5px;
+top: 135px;
+font-size:20px;
+
+    } 
+    [style='color:#ff0c0c']{
+        opacity: 0;
+  transition: opacity 0.5s ease-in ;
+    } 
+    [ style='color:#139200']{
+        visibility: hidden;
+        transition: visibility 0.5s ease-in;
+      
+    } 
+    input[type="email"]:valid{
+        visibility: visible;
+
+    } 
+    input[type="email"]:invalid{
+        opacity: 1;
+
+    } */
+
+
+ 
